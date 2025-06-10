@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496416646367",
+    "firebase_url": "https://tummytrek-8f93f-default-rtdb.firebaseio.com",
+    "project_id": "tummytrek-8f93f",
+    "storage_bucket": "tummytrek-8f93f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496416646367:android:7e15bcba5d365e3280f56a",
+        "android_client_info": {
+          "package_name": "com.example.food_ordering_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496416646367-anb4pv03t3v5m45imatq4ar5povt5tpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_ordering_app",
+            "certificate_hash": "5ffe1e41b5bb5ea9667f6887af9e2d77e31a574e"
+          }
+        },
+        {
+          "client_id": "496416646367-hb17j9g0r18o32spdchfrsf3emj51ok5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnM6KYLOYeaSXiZ7nudUjV920iRt8cwvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496416646367-hb17j9g0r18o32spdchfrsf3emj51ok5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

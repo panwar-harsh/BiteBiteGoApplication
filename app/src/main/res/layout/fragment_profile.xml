@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="8dp"
+    android:background="@color/white"
+    android:paddingEnd="8dp"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/editProfileBtn"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/yeon_sung"
+            android:background="@drawable/button_background"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Edit Profile" />
+
+        <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="56dp"
+       android:background="@drawable/profile_edittext_shape"
+       android:gravity="center"
+       android:elevation="3dp"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal">
+
+
+       <TextView
+           android:layout_width="30dp"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           android:fontFamily="@font/yeon_sung"
+           android:layout_weight="1"
+           android:layout_marginStart="8dp"
+           android:text="Name" />
+
+       <EditText
+           android:id="@+id/name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@color/material_dynamic_neutral100"
+           android:ems="10"
+           android:inputType="text"
+           android:text="Harsh Panwar" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:elevation="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/profile_edittext_shape"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/yeon_sung"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/material_dynamic_neutral100"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="harshpanwar024@gmail.com" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/profile_edittext_shape"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/yeon_sung"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/material_dynamic_neutral100"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Lorem  ipsum is placeholder text
+commonly used in the graphic,
+print, and publishing industries " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:elevation="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/profile_edittext_shape"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/yeon_sung"
+            android:layout_marginStart="8dp"
+            android:text="Phone" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/material_dynamic_neutral100"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="9817183780" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/profile_edittext_shape"
+        android:layout_gravity="bottom"
+        android:elevation="5dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:textAllCaps="false"
+        android:textColor="@color/endColor"
+        android:fontFamily="@font/yeon_sung"
+        android:textSize="20sp"
+        android:text="Save Information"
+        />
+
+</FrameLayout>
