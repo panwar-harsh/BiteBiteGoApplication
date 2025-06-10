@@ -1,6 +1,6 @@
 <h2 align="center"><u>BiteBiteGoApplication Android App</u></h2>
 
-![Food Delivery App](C:\Users\jiya computers\AndroidStudioProjects\Food_Ordering_App\app\src\main\res\drawable\app_logo)
+![Food Delivery App](https://th.bing.com/th/id/OIP.GQ30tYzrobb44Z1dL0VLPQHaHa?w=218&h=218&c=7&r=0&o=7&pid=1.7&rm=3)
 <h4 align="center">A Smart Meal Discovery & Food Delivery App for Android 🍽️</h4>
 
 <p align="center">
